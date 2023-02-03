@@ -1,0 +1,41 @@
+body,
+html { 
+    background: url(sp.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn {
+    font-weight: 3rem;
+    color: #2b2321;
+    text-transform: uppercase;
+}
+
+.btn-primary {	
+    background-color: #F05F44;	
+    border-color: #F05F44;	
+    --bs-btn-hover-bg: #ee4b08;	
+    --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-primary:hover {
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.buffer {
+    height: 10rem;
+}
